@@ -2,6 +2,7 @@ import "./App.css";
 
 import Block from "./components/generalinfo/Block";
 import Streetname from "./components/generalinfo/Streetname";
+import Property from "./components/propertydetails/Property";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="generalinfo">
         <Block />
         <Streetname />
+        <Property />
       </div>
     </div>
   );

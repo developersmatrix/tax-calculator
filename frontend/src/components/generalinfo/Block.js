@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { blockActions } from "../../store";
 
 import { blockNumbers } from "../../store/blocks";
+import { streetsActions } from "../../store";
 import "./Block.css";
 
 const Block = () => {
@@ -12,6 +13,7 @@ const Block = () => {
 
   const selectedBlock = (event) => {
     dispatch(blockActions.setBlock(event.target.value));
+    dispatch(streetsActions.setStreetList(event.target.value));
   };
   const blocks = blockNumbers.map((element) => {
     return (

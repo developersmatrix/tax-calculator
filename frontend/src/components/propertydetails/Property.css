@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+  gap: 1rem;
+}
+.input-control {
+  padding: 0.5rem 1rem;
+}
