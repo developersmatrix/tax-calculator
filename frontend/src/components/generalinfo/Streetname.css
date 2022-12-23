@@ -1,0 +1,7 @@
+.street {
+  display: flex;
+  gap: 1rem;
+}
+.street-select {
+  padding: 0.5rem 2rem;
+}
